@@ -1,0 +1,84 @@
+
+
+    //    void delete(ENTITY entity, lockmode);
+
+    //
+    //    /**
+    //     * Retrieve all persisted objects with given parents.
+    //     * 
+    //     * If parent is null, method returns root objects (with no parent).
+    //     * 
+    //     * @param parent objects' parent
+    //     * @return list of objects
+    //     */
+    //    List<T> get(IInheritable<T> parent);
+    
+        //
+    //    /**
+    //     * Write to database anything that is pending operation and clear it.
+    //     */
+    //    void flushAndClear();
+    
+        //
+    //    /**
+    //     * Find objects comparing them with examplary object using all not-null properties.
+    //     * 
+    //     * Properties <code>IEntity.id</code>, <code>IDefaultable.isDefault</code>,
+    //     * <code>IActivable.isActive</code> and <code>IHiddenable.isHidden</code> are ignored.
+    //     * 
+    //     * @param example examplary object
+    //     * @return list of objects
+    //     */
+    //    List<T> findByExample(T example);
+    
+       //
+    //    /**
+    //     * Set object as default one.
+    //     * 
+    //     * Check if there is only one default object - it uses
+    //     * <code>IDefaultable#getExample()</code> and <code>#findByExample(IEntity)</code> methods to
+    //     * get objects and mark them as not-default.
+    //     * 
+    //     * It is possible to have more
+    //     * than one default object manipulating <code>IDefaultable#getExample()</code>
+    //     * method.
+    //     * 
+    //     * @param object default object
+    //     * @see IDefaultable#getExample()
+    //     * @see #findByExample(IEntity)
+    //     */
+    //    void setAsDefault(IDefaultable object);
+    //
+    //
+    //
+    //    /**
+    //     * Check whether the DAO represents <code>IActivable</code> implementation.
+    //     * 
+    //     * @return true if DAO's object are activable
+    //     * @see IActivable
+    //     */
+    //    public boolean isActivable();
+    //
+    //    /**
+    //     * Check whether the DAO represents <code>IDefaultable</code> implementation.
+    //     * 
+    //     * @return true if DAO's object are defaultable
+    //     * @see IDefaultable
+    //     */
+    //    public boolean isDefaultable();
+    //
+    //    /**
+    //     * Check whether the DAO represents <code>IHiddenable</code> implementation.
+    //     * 
+    //     * @return true if DAO's object are hiddenable
+    //     * @see IHiddenable
+    //     */
+    //    public boolean isHiddenable();
+    //
+    //    /**
+    //     * Check whether the DAO represents <code>IInheritable</code> implementation.
+    //     * 
+    //     * @return true if DAO's object are inheritable
+    //     * @see IInheritable
+    //     */
+    //    public boolean isInheritable();
