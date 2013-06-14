@@ -14,13 +14,13 @@
  *     See the License for the specific language governing permissions and
  *     limitations under the License.
  */
-package net.awired.ajsl.persistence.dao.impl;
+package net.awired.generic.jpa.impl;
 
 import static org.junit.Assert.assertEquals;
 import java.util.Arrays;
 import java.util.List;
-import net.awired.ajsl.persistence.dao.EntityTest;
-import net.awired.ajsl.persistence.dao.EntityTestBuilder;
+import net.awired.generic.jpa.EntityTest;
+import net.awired.generic.jpa.EntityTestBuilder;
 import net.awired.generic.jpa.dao.impl.GenericDaoImpl;
 import net.awired.generic.jpa.entity.Order;
 import org.junit.Test;

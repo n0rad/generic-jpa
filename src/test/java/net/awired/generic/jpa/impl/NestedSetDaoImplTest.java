@@ -14,15 +14,15 @@
  *     See the License for the specific language governing permissions and
  *     limitations under the License.
  */
-package net.awired.ajsl.persistence.dao.impl;
+package net.awired.generic.jpa.impl;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import java.util.List;
 import javax.persistence.Entity;
-import net.awired.ajsl.persistence.dao.impl.NestedSetDaoImplTest.NestedEntity;
 import net.awired.generic.jpa.dao.impl.NestedSetDaoImpl;
 import net.awired.generic.jpa.entity.NestedSetEntityImpl;
+import net.awired.generic.jpa.impl.NestedSetDaoImplTest.NestedEntity;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;

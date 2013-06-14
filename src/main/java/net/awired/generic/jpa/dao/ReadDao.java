@@ -19,7 +19,7 @@ package net.awired.generic.jpa.dao;
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.List;
-import net.awired.ajsl.core.lang.exception.NotFoundException;
+import net.awired.core.lang.exception.NotFoundException;
 import net.awired.generic.jpa.entity.IdEntity;
 
 public interface ReadDao<ENTITY extends IdEntity<KEY>, KEY extends Serializable> {

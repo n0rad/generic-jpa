@@ -14,12 +14,12 @@
  *     See the License for the specific language governing permissions and
  *     limitations under the License.
  */
-package net.awired.ajsl.persistence.dao.impl;
+package net.awired.generic.jpa.impl;
 
 import java.util.List;
 import junit.framework.Assert;
-import net.awired.ajsl.core.lang.exception.NotFoundException;
-import net.awired.ajsl.persistence.dao.EntityTest;
+import net.awired.core.lang.exception.NotFoundException;
+import net.awired.generic.jpa.EntityTest;
 import net.awired.generic.jpa.dao.impl.GenericDaoImpl;
 import org.junit.Test;
 import org.junit.runner.RunWith;

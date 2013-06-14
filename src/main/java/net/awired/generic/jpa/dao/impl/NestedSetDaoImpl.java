@@ -20,7 +20,7 @@ import java.io.Serializable;
 import java.util.List;
 import javax.persistence.NamedQuery;
 import javax.persistence.TypedQuery;
-import net.awired.ajsl.core.lang.exception.NotFoundException;
+import net.awired.core.lang.exception.NotFoundException;
 import net.awired.generic.jpa.dao.NestedSetDao;
 import net.awired.generic.jpa.entity.NestedSet;
 import org.springframework.transaction.annotation.Propagation;

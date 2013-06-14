@@ -20,7 +20,7 @@ import java.io.Serializable;
 import javax.inject.Inject;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
-import net.awired.ajsl.core.lang.exception.NotFoundException;
+import net.awired.core.lang.exception.NotFoundException;
 import net.awired.generic.jpa.dao.ReadDao;
 import net.awired.generic.jpa.entity.IdEntity;
 import org.springframework.beans.BeansException;
